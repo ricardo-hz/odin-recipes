@@ -7,6 +7,11 @@ wacky :/ */
     width: 80%;
 }
 
+*
+{
+    font-family:"Courier New", Courier, monospace;
+}
+
 #main-menu-title
 {
     text-align: center;
