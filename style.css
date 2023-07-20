@@ -1,4 +1,19 @@
-.images{
+/*God help me I cannot for the life of my figure out how to center these images.
+It looks centered on one monitor, then I move it to my second monitor and it looks
+wacky :/ */
+.images
+{
     margin: auto;
     width: 80%;
+}
+
+#main-menu-title
+{
+    text-align: center;
+}
+
+.index.context
+{
+    text-align: center;
+    font-size: 12px;
 }
