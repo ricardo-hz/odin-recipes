@@ -66,8 +66,14 @@ after a user has visited a link*/
     height: auto;
     text-align: center;
 }
-/*To Do, Push and change background color for all pages*/
+
 .page.background
 {
-    background-color:hsl(199, 77%, 90%)
+    background-color:hsl(199, 77%, 90%);
+}
+/*Bug: Burrito Image too big, can't seem to fix with this class for some reason*/
+.ingredient.image
+{
+    height: 50%;
+    width: auto;
 }
