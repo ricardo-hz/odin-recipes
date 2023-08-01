@@ -59,10 +59,15 @@ after a user has visited a link*/
     display: inline-block;
 }
 
-.food.images.box{
+.groups.box{
     /*border: 2px solid green;*/
     width: 50%;
     margin-left: 25%;
     height: auto;
-    padding-left: 15%;
+    text-align: center;
+}
+/*To Do, Push and change background color for all pages*/
+.page.background
+{
+    background-color:hsl(199, 77%, 90%)
 }
