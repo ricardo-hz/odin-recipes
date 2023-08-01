@@ -12,7 +12,7 @@ wacky :/ */
     font-family:"Courier New", Courier, monospace;
 }
 
-#main-menu-title
+.index.header
 {
     text-align: center;
 }
@@ -26,6 +26,43 @@ wacky :/ */
 .index.groups
 {
     text-align: center;
+    background-color: hsl(0, 0%, 75%);
+    box-sizing: border-box;
     font-size: 36px;
     margin: 80px;
+}
+/*Goal: Remove the purple text that appears
+after a user has visited a link*/
+.index.groups:hover
+{
+    background-color: hsl(0,100%,100%);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.index.groups:link
+{
+    color: rgb(100,100,100);
+}
+
+.index.boxes
+{
+    width: 50%;
+    margin: auto;
+}
+
+.food.images
+{
+    height: 175px;
+    width: auto;
+    /*border: 2px solid red;*/
+    display: inline-block;
+}
+
+.food.images.box{
+    /*border: 2px solid green;*/
+    width: 50%;
+    margin-left: 25%;
+    height: auto;
+    padding-left: 15%;
 }
