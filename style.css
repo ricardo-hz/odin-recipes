@@ -77,3 +77,19 @@ after a user has visited a link*/
     height: 50%;
     width: auto;
 }
+
+.home-back-links
+{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.ingredient.list,
+.step.list
+{
+    text-align: left;
+}
+ .step
+ {
+    padding-bottom: 15px;
+ }
